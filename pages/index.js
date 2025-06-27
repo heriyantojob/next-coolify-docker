@@ -14,8 +14,8 @@ export default function Home() {
           Project Heriyanto 
         </h1>
         <div>
-          url {process.env.url}
-        </div>
+            URL: {process.env.NEXT_PUBLIC_API_URL}
+          </div>
 
         <p className={styles.description}>
           Get started by editing{" "}
