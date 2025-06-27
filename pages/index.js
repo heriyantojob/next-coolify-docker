@@ -11,8 +11,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Project Heriyanto
+          Project Heriyanto 
         </h1>
+        <div>
+          url {process.env.url}
+        </div>
 
         <p className={styles.description}>
           Get started by editing{" "}
